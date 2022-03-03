@@ -1,0 +1,1522 @@
+ 
+/* start css.sty */
+.cmr-5{font-size:50%;}
+.cmr-7{font-size:70%;}
+.cmmi-5{font-size:50%;font-style: italic;}
+.cmmi-7{font-size:70%;font-style: italic;}
+.cmmi-10{font-style: italic;}
+.cmsy-5{font-size:50%;}
+.cmsy-7{font-size:70%;}
+.cmbx-10{ font-weight: bold;}
+.cmbsy-10{font-weight: bold;}
+.cmbsy-10{font-weight: bold;}
+.cmbsy-10{font-weight: bold;}
+.cmbsy-7{font-size:70%;font-weight: bold;}
+.cmbsy-7{font-weight: bold;}
+.cmbsy-7{font-weight: bold;}
+.cmbsy-5{font-size:50%;font-weight: bold;}
+.cmbsy-5{font-weight: bold;}
+.cmbsy-5{font-weight: bold;}
+.cmr-17{font-size:170%;}
+.cmr-12{font-size:120%;}
+.cmr-8{font-size:80%;}
+.cmr-6{font-size:60%;}
+.cmr-9{font-size:90%;}
+.cmtt-10{font-family: monospace,monospace;}
+.cmtt-10{font-family: monospace,monospace;}
+.cmtt-10{font-family: monospace,monospace;}
+.cmtt-10{font-family: monospace,monospace;}
+.cmtt-10{font-family: monospace,monospace;}
+.cmti-10{ font-style: italic;}
+.cmtt-8{font-size:80%;font-family: monospace,monospace;}
+.cmtt-8{font-family: monospace,monospace;}
+.cmtt-8{font-family: monospace,monospace;}
+.cmtt-8{font-family: monospace,monospace;}
+.cmtt-8{font-family: monospace,monospace;}
+.cmsltt-10x-x-80{font-size:80%; font-style: oblique; font-family: monospace,monospace;}
+.cmtt-9{font-size:90%;font-family: monospace,monospace;}
+.cmtt-9{font-family: monospace,monospace;}
+.cmtt-9{font-family: monospace,monospace;}
+.cmtt-9{font-family: monospace,monospace;}
+.cmtt-9{font-family: monospace,monospace;}
+.tctt-0900{font-size:90%;font-family: monospace,monospace;}
+.tctt-0900{font-family: monospace,monospace;}
+.cmtt-8x-x-62{font-size:49%;font-family: monospace,monospace;}
+.cmtt-8x-x-62{font-family: monospace,monospace;}
+.cmtt-8x-x-62{font-family: monospace,monospace;}
+.cmtt-8x-x-62{font-family: monospace,monospace;}
+.cmtt-8x-x-62{font-family: monospace,monospace;}
+.cmbxti-10{ font-weight: bold; font-style: italic;}
+.cmti-8{font-size:80%; font-style: italic;}
+.tctt-0800{font-size:80%;font-family: monospace,monospace;}
+.tctt-0800{font-family: monospace,monospace;}
+p{margin-top:0;margin-bottom:0}
+p.indent{text-indent:0;}
+p + p{margin-top:1em;}
+p + div, p + pre {margin-top:1em;}
+div + p, pre + p {margin-top:1em;}
+a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+@media print {div.crosslinks {visibility:hidden;}}
+a img { border-top: 0; border-left: 0; border-right: 0; }
+center { margin-top:1em; margin-bottom:1em; }
+td center { margin-top:0em; margin-bottom:0em; }
+.Canvas { position:relative; }
+math { text-indent: 0em; }
+li p.indent { text-indent: 0em }
+li p:first-child{ margin-top:0em; }
+li p:last-child, li div:last-child { margin-bottom:0.5em; }
+li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+.enumerate1 {list-style-type:decimal;}
+.enumerate2 {list-style-type:lower-alpha;}
+.enumerate3 {list-style-type:lower-roman;}
+.enumerate4 {list-style-type:upper-alpha;}
+div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+.obeylines-h,.obeylines-v {white-space: nowrap; }
+div.obeylines-v p { margin-top:0; margin-bottom:0; }
+.overline{ text-decoration:overline; }
+.overline img{ border-top: 1px solid black; }
+td.displaylines {text-align:center; white-space:nowrap;}
+.centerline {text-align:center;}
+.rightline {text-align:right;}
+pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
+.fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.fbox {display:table}
+div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.minipage{width:100%;}
+div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+div.center div {text-align: left;}
+div.flushright, div.flushright div.flushright {text-align: right;}
+div.flushright div {text-align: left;}
+div.flushleft {text-align: left;}
+.underline{ text-decoration:underline; }
+.underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+.framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+.framebox-c {text-align:center;}
+.framebox-l {text-align:left;}
+.framebox-r {text-align:right;}
+span.thank-mark{ vertical-align: super }
+span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+table.tabular td p{margin-top:0em;}
+table.tabular {margin-left: auto; margin-right: auto;}
+td p:first-child{ margin-top:0em; }
+td p:last-child{ margin-bottom:0em; }
+div.td00{ margin-left:0pt; margin-right:0pt; }
+div.td01{ margin-left:0pt; margin-right:5pt; }
+div.td10{ margin-left:5pt; margin-right:0pt; }
+div.td11{ margin-left:5pt; margin-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+td.td00{ padding-left:0pt; padding-right:0pt; }
+td.td01{ padding-left:0pt; padding-right:5pt; }
+td.td10{ padding-left:5pt; padding-right:0pt; }
+td.td11{ padding-left:5pt; padding-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+.hline hr, .cline hr{ height : 0px; margin:0px; }
+.hline td, .cline td{ padding: 0; }
+.hline hr, .cline hr{border:none;border-top:1px solid black;}
+.tabbing-right {text-align:right;}
+div.float, div.figure {margin-left: auto; margin-right: auto;}
+div.float img {text-align:center;}
+div.figure img {text-align:center;}
+.marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+.marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+.reversemarginpar{float:left;}
+.equation td{text-align:center; vertical-align:middle; }
+td.eq-no{ width:5%; }
+table.equation { width:100%; } 
+div.math-display, div.par-math-display{text-align:center;}
+mtr.hline mtd{ border-bottom:black solid 1px; padding-top:2px; padding-bottom:0em; }
+mtr.hline mtd mo{ display:none }
+math .texttt { font-family: monospace; }
+math .textit { font-style: italic; }
+math .textsl { font-style: oblique; }
+math .textsf { font-family: sans-serif; }
+math .textbf { font-weight: bold; }
+table.tabular{border-collapse: collapse; border-spacing: 0;}
+mo.MathClass-op + mi{margin-left:0.3em}
+mi + mo.MathClass-op{margin-left:0.3em}
+ math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
+ math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
+.partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+.chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
+.index-item, .index-subitem, .index-subsubitem {display:block}
+div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+div.caption span.id{font-weight: bold; white-space: nowrap; }
+h1.partHead{text-align: center}
+p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+.paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+.subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+.verse{white-space:nowrap; margin-left:2em}
+div.maketitle {text-align:center;}
+h2.titleHead{text-align:center;}
+div.maketitle{ margin-bottom: 2em; }
+div.author, div.date {text-align:center;}
+div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+div.author{white-space: nowrap;}
+h1.partHead{text-align: center}
+ .chapterToc, .likechapterToc {margin-left:0em;}
+ .chapterToc ~ .likesectionToc, .chapterToc ~ .sectionToc, .likechapterToc ~ .likesectionToc, .likechapterToc ~ .sectionToc {margin-left:2em;}
+ .chapterToc ~ .likesectionToc ~ .likesubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc {margin-left:4em;}
+.chapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc ~ .subsubsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc .likechapterToc ~ .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:6em;}
+ .likesectionToc , .sectionToc {margin-left:0em;}
+ .likesectionToc ~ .likesubsectionToc, .likesectionToc ~ .subsectionToc, .sectionToc ~ .likesubsectionToc, .sectionToc ~ .subsectionToc {margin-left:2em;}
+.likesectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .likesectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .likesectionToc ~ .subsectionToc ~ .subsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .likesubsectionToc ~ .subsubsectionToc, .sectionToc ~ .subsectionToc ~ .likesubsubsectionToc, .sectionToc ~ .subsectionToc ~ .subsubsectionToc {margin-left:4em;}
+ .likesubsectionToc, .subsectionToc {margin-left:0em;}
+ .likesubsectionToc ~ .subsubsectionToc, .subsectionToc ~ .subsubsectionToc {margin-left:2em;}
+figure.float, div.figure {margin-left: auto; margin-right: auto;}
+figure.float img, figure.figure img {display: block; margin-left: auto; margin-right: auto;}
+figure.figure {text-align:center;}
+figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
+figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
+.caption span.id{font-weight: bold;}
+ .wrapfig-r, .wrapfig-ri, .wrapfig-ir, .wrapfig-ro, .wrapfig-or {float:right; text-align:left; margin-left:auto; margin-top:0.5em;} 
+ .wrapfig-l, .wrapfig-li, .wrapfig-il, .wrapfig-lo, .wrapfig-ol {float:left; text-align:left; margin-right:auto; margin-top:0.5em;} 
+.wrapfig-r .caption td.content, .wrapfig-ri .caption td.content, .wrapfig-ir .caption td.content, .wrapfig-ro .caption td.content, .wrapfig-or .caption td.content, .wrapfig-l .caption td.content, .wrapfig-li .caption td.content, .wrapfig-il .caption td.content, .wrapfig-lo .caption td.content, .wrapfig-ol .caption td.content {white-space: normal; }
+.wrapfig-r .caption, .wrapfig-ri .caption, .wrapfig-ir .caption, .wrapfig-ro .caption, .wrapfig-or .caption, .wrapfig-l .caption, .wrapfig-li .caption, .wrapfig-il .caption, .wrapfig-lo .caption, .wrapfig-ol .caption {width:30%; }
+div.verbatiminput {font-family: monospace,monospace; white-space: nowrap; }
+.lstlisting .label{margin-right:0.5em; }
+div.lstlisting{font-family: monospace,monospace; white-space: nowrap; margin-top:0.5em; margin-bottom:0.5em; }
+div.lstinputlisting{ font-family: monospace,monospace; white-space: nowrap; }
+.lstinputlisting .label{margin-right:0.5em;}
+.rotatebox{display: inline-block;}
+.framedenv{border: 1px solid black;}
+.mdframed{margin-top:1em;margin-bottom:1em;}
+#textcolor57{color:#E500E5}
+#textcolor68{color:#E500E5}
+#textcolor85{color:#E500E5}
+#textcolor119{color:#E500E5}
+#textcolor124{color:#E500E5}
+#textcolor127{color:#E500E5}
+#textcolor157{color:#E500E5}
+#textcolor191{color:#E500E5}
+#textcolor226{color:#E500E5}
+#textcolor229{color:#E500E5}
+#textcolor231{color:#E500E5}
+#textcolor242{color:#E500E5}
+#textcolor286{color:#E500E5}
+#textcolor305{color:#E500E5}
+#textcolor364{color:#E500E5}
+#textcolor501{color:#E500E5}
+#textcolor514{color:#E500E5}
+#textcolor535{color:#E500E5}
+#textcolor571{color:#E500E5}
+#textcolor578{color:#E500E5}
+#textcolor581{color:#E500E5}
+#textcolor613{color:#E500E5}
+#textcolor651{color:#E500E5}
+#textcolor689{color:#E500E5}
+#textcolor692{color:#E500E5}
+#textcolor694{color:#E500E5}
+#textcolor708{color:#E500E5}
+#textcolor754{color:#E500E5}
+#textcolor779{color:#E500E5}
+#textcolor833{color:#E500E5}
+#textcolor847{color:#E500E5}
+#textcolor903{color:#E500E5}
+#textcolor1042{color:#E500E5}
+#textcolor1053{color:#E500E5}
+#textcolor1070{color:#E500E5}
+#textcolor1102{color:#E500E5}
+#textcolor1107{color:#E500E5}
+#textcolor1110{color:#E500E5}
+#textcolor1141{color:#E500E5}
+#textcolor1160{color:#E500E5}
+#textcolor1163{color:#E500E5}
+#textcolor1166{color:#E500E5}
+#textcolor1169{color:#E500E5}
+#textcolor1180{color:#E500E5}
+#textcolor1198{color:#E500E5}
+#textcolor1201{color:#E500E5}
+#textcolor1203{color:#E500E5}
+#textcolor1232{color:#E500E5}
+#textcolor1235{color:#E500E5}
+#textcolor1238{color:#E500E5}
+#textcolor1245{color:#E500E5}
+#textcolor1267{color:#E500E5}
+#textcolor1284{color:#E500E5}
+#textcolor1352{color:#E500E5}
+#textcolor1355{color:#E500E5}
+#textcolor1357{color:#E500E5}
+#textcolor1362{color:#E500E5}
+#textcolor1365{color:#E500E5}
+#textcolor1368{color:#E500E5}
+#textcolor1370{color:#E500E5}
+#textcolor1374{color:#E500E5}
+#textcolor1383{color:#E500E5}
+#textcolor1386{color:#E500E5}
+#textcolor1389{color:#E500E5}
+#textcolor1418{color:#E500E5}
+#textcolor1566{color:#E500E5}
+#textcolor1576{color:#E500E5}
+#textcolor1590{color:#E500E5}
+#textcolor1609{color:#E500E5}
+#textcolor1641{color:#E500E5}
+#textcolor1646{color:#E500E5}
+#textcolor1649{color:#E500E5}
+#textcolor1696{color:#E500E5}
+#textcolor1702{color:#E500E5}
+#textcolor1704{color:#E500E5}
+#textcolor1709{color:#E500E5}
+#textcolor1736{color:#E500E5}
+#textcolor1738{color:#E500E5}
+#textcolor1743{color:#E500E5}
+#textcolor1777{color:#E500E5}
+#textcolor1780{color:#E500E5}
+#textcolor1782{color:#E500E5}
+#textcolor1795{color:#E500E5}
+#textcolor1800{color:#E500E5}
+#textcolor1852{color:#E500E5}
+#textcolor1882{color:#E500E5}
+#textcolor1900{color:#E500E5}
+#textcolor1927{color:#E500E5}
+#textcolor1992{color:#E500E5}
+#textcolor2000{color:#E500E5}
+#textcolor2008{color:#E500E5}
+#textcolor2027{color:#E500E5}
+#textcolor2029{color:#E500E5}
+#textcolor2033{color:#E500E5}
+#textcolor2051{color:#E500E5}
+#textcolor2063{color:#E500E5}
+#textcolor2083{color:#E500E5}
+#textcolor2102{color:#E500E5}
+#textcolor2108{color:#E500E5}
+#textcolor2111{color:#E500E5}
+#textcolor2113{color:#E500E5}
+#textcolor2115{color:#E500E5}
+#textcolor2128{color:#E500E5}
+#textcolor2168{color:#E500E5}
+#textcolor2172{color:#E500E5}
+#textcolor2175{color:#E500E5}
+#textcolor2178{color:#E500E5}
+#textcolor2181{color:#E500E5}
+#textcolor2187{color:#E500E5}
+#textcolor2193{color:#E500E5}
+#textcolor2215{color:#E500E5}
+#textcolor2217{color:#E500E5}
+#textcolor2221{color:#E500E5}
+#textcolor2225{color:#E500E5}
+#textcolor2232{color:#E500E5}
+#textcolor2235{color:#E500E5}
+#textcolor2256{color:#E500E5}
+#textcolor2266{color:#E500E5}
+#textcolor2268{color:#E500E5}
+#textcolor2272{color:#E500E5}
+#textcolor2285{color:#E500E5}
+#textcolor2288{color:#E500E5}
+#textcolor2290{color:#E500E5}
+#textcolor2295{color:#E500E5}
+#textcolor2298{color:#E500E5}
+#textcolor2301{color:#E500E5}
+#textcolor2303{color:#E500E5}
+#textcolor2307{color:#E500E5}
+#textcolor2310{color:#E500E5}
+#textcolor2313{color:#E500E5}
+#textcolor2316{color:#E500E5}
+#textcolor2357{color:#E500E5}
+#textcolor2360{color:#E500E5}
+#textcolor2363{color:#E500E5}
+#textcolor2375{color:#E500E5}
+#textcolor2378{color:#E500E5}
+#textcolor2558{color:#E500E5}
+#textcolor2564{color:#E500E5}
+#textcolor2588{color:#E500E5}
+#textcolor2681{color:#E500E5}
+#textcolor2687{color:#E500E5}
+#textcolor2700{color:#E500E5}
+#textcolor2707{color:#E500E5}
+#textcolor2710{color:#E500E5}
+#textcolor2738{color:#E500E5}
+#textcolor2742{color:#E500E5}
+#textcolor2749{color:#E500E5}
+#textcolor2757{color:#E500E5}
+#textcolor2765{color:#E500E5}
+#textcolor2773{color:#E500E5}
+#textcolor2781{color:#E500E5}
+#textcolor2784{color:#E500E5}
+#textcolor2798{color:#E500E5}
+#textcolor2892{color:#E500E5}
+#textcolor2897{color:#E500E5}
+#textcolor2900{color:#E500E5}
+#textcolor2905{color:#E500E5}
+#textcolor2910{color:#E500E5}
+#textcolor2912{color:#E500E5}
+#textcolor2968{color:#E500E5}
+#textcolor2974{color:#E500E5}
+#textcolor2977{color:#E500E5}
+#textcolor2980{color:#E500E5}
+#textcolor3003{color:#E500E5}
+#textcolor3009{color:#E500E5}
+#textcolor3012{color:#E500E5}
+#textcolor3015{color:#E500E5}
+#textcolor3026{color:#E500E5}
+#textcolor3030{color:#E500E5}
+#textcolor3034{color:#E500E5}
+#textcolor3071{color:#E500E5}
+#textcolor3077{color:#E500E5}
+#textcolor3079{color:#E500E5}
+#textcolor3087{color:#E500E5}
+#textcolor3090{color:#E500E5}
+#textcolor3093{color:#E500E5}
+#textcolor3103{color:#E500E5}
+#textcolor3107{color:#E500E5}
+#textcolor3110{color:#E500E5}
+#textcolor3113{color:#E500E5}
+#textcolor3122{color:#E500E5}
+#textcolor3126{color:#E500E5}
+#textcolor3135{color:#E500E5}
+#textcolor3137{color:#E500E5}
+#textcolor3141{color:#E500E5}
+#textcolor3201{color:#E500E5}
+#textcolor3203{color:#E500E5}
+#textcolor3207{color:#E500E5}
+#textcolor3211{color:#E500E5}
+#textcolor3214{color:#E500E5}
+#textcolor3216{color:#E500E5}
+#textcolor3221{color:#E500E5}
+#textcolor3224{color:#E500E5}
+#textcolor3227{color:#E500E5}
+#textcolor3229{color:#E500E5}
+#textcolor3233{color:#E500E5}
+#textcolor3243{color:#E500E5}
+#textcolor3247{color:#E500E5}
+#textcolor3250{color:#E500E5}
+#textcolor3316{color:#E500E5}
+#textcolor3383{color:#E500E5}
+#textcolor3392{color:#E500E5}
+#textcolor3395{color:#E500E5}
+#textcolor3398{color:#E500E5}
+#textcolor3403{color:#E500E5}
+#textcolor3406{color:#E500E5}
+#textcolor3409{color:#E500E5}
+#textcolor3413{color:#E500E5}
+#textcolor3416{color:#E500E5}
+#textcolor3419{color:#E500E5}
+#textcolor3499{color:#E500E5}
+#textcolor3504{color:#E500E5}
+#textcolor3507{color:#E500E5}
+#textcolor3510{color:#E500E5}
+#textcolor3514{color:#E500E5}
+#textcolor3517{color:#E500E5}
+#textcolor3520{color:#E500E5}
+#textcolor3524{color:#E500E5}
+#textcolor3527{color:#E500E5}
+#textcolor3530{color:#E500E5}
+#textcolor3533{color:#E500E5}
+#textcolor3537{color:#E500E5}
+#textcolor3540{color:#E500E5}
+#textcolor3543{color:#E500E5}
+#textcolor3548{color:#E500E5}
+#textcolor3551{color:#E500E5}
+#textcolor3554{color:#E500E5}
+#textcolor3565{color:#E500E5}
+#textcolor3646{color:#E500E5}
+#textcolor3653{color:#E500E5}
+#textcolor3656{color:#E500E5}
+#textcolor3686{color:#E500E5}
+#textcolor3692{color:#E500E5}
+#textcolor3695{color:#E500E5}
+#textcolor3705{color:#E500E5}
+#textcolor3711{color:#E500E5}
+#textcolor3714{color:#E500E5}
+#textcolor3724{color:#E500E5}
+#textcolor3729{color:#E500E5}
+#textcolor5628{color:#E500E5}
+#textcolor5646{color:#E500E5}
+#textcolor5649{color:#E500E5}
+#textcolor5658{color:#E500E5}
+#textcolor5665{color:#E500E5}
+#textcolor5669{color:#E500E5}
+#textcolor5672{color:#E500E5}
+#textcolor5678{color:#E500E5}
+#textcolor5688{color:#E500E5}
+#textcolor5704{color:#E500E5}
+#textcolor5726{color:#E500E5}
+#textcolor5732{color:#E500E5}
+#textcolor5735{color:#E500E5}
+#textcolor5737{color:#E500E5}
+#textcolor5761{color:#E500E5}
+#textcolor5796{color:#E500E5}
+#textcolor5829{color:#E500E5}
+#textcolor5838{color:#E500E5}
+#textcolor5844{color:#E500E5}
+#textcolor5857{color:#E500E5}
+#textcolor5879{color:#E500E5}
+#textcolor5922{color:#E500E5}
+#textcolor5937{color:#E500E5}
+#textcolor5973{color:#E500E5}
+#textcolor5992{color:#E500E5}
+#textcolor6015{color:#E500E5}
+#textcolor6069{color:#E500E5}
+#textcolor6077{color:#E500E5}
+#textcolor6135{color:#E500E5}
+#textcolor6137{color:#E500E5}
+#textcolor6141{color:#E500E5}
+#textcolor6145{color:#E500E5}
+#textcolor6159{color:#E500E5}
+#textcolor6171{color:#E500E5}
+#textcolor6177{color:#E500E5}
+#textcolor6180{color:#E500E5}
+#textcolor6182{color:#E500E5}
+#textcolor6185{color:#E500E5}
+#textcolor6192{color:#E500E5}
+#textcolor6195{color:#E500E5}
+#textcolor6197{color:#E500E5}
+#textcolor6200{color:#E500E5}
+#textcolor6203{color:#E500E5}
+#textcolor6205{color:#E500E5}
+#textcolor6209{color:#E500E5}
+#textcolor6212{color:#E500E5}
+#textcolor6214{color:#E500E5}
+#textcolor6217{color:#E500E5}
+#textcolor6221{color:#E500E5}
+#textcolor6225{color:#E500E5}
+#textcolor6227{color:#E500E5}
+#textcolor6255{color:#E500E5}
+#textcolor6257{color:#E500E5}
+#textcolor6261{color:#E500E5}
+#textcolor6282{color:#E500E5}
+#textcolor6304{color:#E500E5}
+#textcolor6308{color:#E500E5}
+#textcolor6311{color:#E500E5}
+#textcolor6315{color:#E500E5}
+#textcolor6319{color:#E500E5}
+#textcolor6322{color:#E500E5}
+#textcolor6326{color:#E500E5}
+#textcolor6330{color:#E500E5}
+#textcolor6333{color:#E500E5}
+#textcolor6337{color:#E500E5}
+#textcolor6341{color:#E500E5}
+#textcolor6344{color:#E500E5}
+#textcolor6347{color:#E500E5}
+#textcolor6350{color:#E500E5}
+#textcolor6352{color:#E500E5}
+#textcolor6355{color:#E500E5}
+#textcolor6360{color:#E500E5}
+#textcolor6363{color:#E500E5}
+#textcolor6365{color:#E500E5}
+#textcolor6368{color:#E500E5}
+#textcolor6371{color:#E500E5}
+#textcolor6375{color:#E500E5}
+#textcolor6378{color:#E500E5}
+#textcolor6380{color:#E500E5}
+#textcolor6383{color:#E500E5}
+#textcolor6388{color:#E500E5}
+#textcolor6391{color:#E500E5}
+#textcolor6393{color:#E500E5}
+#textcolor6396{color:#E500E5}
+#textcolor6411{color:#E500E5}
+#textcolor6423{color:#E500E5}
+#textcolor6467{color:#E500E5}
+#textcolor6479{color:#E500E5}
+#textcolor6491{color:#E500E5}
+#textcolor6505{color:#E500E5}
+#textcolor6508{color:#E500E5}
+#textcolor6510{color:#E500E5}
+#textcolor6513{color:#E500E5}
+#textcolor6520{color:#E500E5}
+#textcolor6565{color:#E500E5}
+#textcolor6571{color:#E500E5}
+#textcolor6573{color:#E500E5}
+#textcolor6582{color:#E500E5}
+#textcolor6591{color:#E500E5}
+#textcolor6593{color:#E500E5}
+#textcolor6602{color:#E500E5}
+#textcolor6629{color:#E500E5}
+#textcolor6635{color:#E500E5}
+#textcolor6637{color:#E500E5}
+#textcolor6641{color:#E500E5}
+#textcolor6721{color:#E500E5}
+#textcolor6749{color:#E500E5}
+#textcolor6765{color:#E500E5}
+#textcolor6777{color:#E500E5}
+#textcolor6874{color:#E500E5}
+#textcolor6915{color:#E500E5}
+#textcolor6941{color:#E500E5}
+#textcolor6943{color:#E500E5}
+#textcolor6947{color:#E500E5}
+#textcolor6990{color:#E500E5}
+#textcolor6994{color:#E500E5}
+#textcolor6997{color:#E500E5}
+#textcolor7002{color:#E500E5}
+#textcolor7005{color:#E500E5}
+#textcolor7008{color:#E500E5}
+#textcolor7012{color:#E500E5}
+#textcolor7015{color:#E500E5}
+#textcolor7021{color:#E500E5}
+#textcolor7024{color:#E500E5}
+#textcolor7027{color:#E500E5}
+#textcolor7031{color:#E500E5}
+#textcolor7034{color:#E500E5}
+#textcolor7038{color:#E500E5}
+#textcolor7045{color:#E500E5}
+#textcolor7048{color:#E500E5}
+#textcolor7053{color:#E500E5}
+#textcolor7056{color:#E500E5}
+#textcolor7059{color:#E500E5}
+#textcolor7072{color:#E500E5}
+#textcolor7091{color:#E500E5}
+#textcolor7149{color:#E500E5}
+#textcolor7152{color:#E500E5}
+#textcolor7155{color:#E500E5}
+#textcolor7166{color:#E500E5}
+#textcolor7169{color:#E500E5}
+#textcolor7180{color:#E500E5}
+#textcolor7183{color:#E500E5}
+#textcolor7194{color:#E500E5}
+#textcolor7197{color:#E500E5}
+#textcolor7223{color:#E500E5}
+#textcolor7226{color:#E500E5}
+#textcolor7229{color:#E500E5}
+#textcolor7240{color:#E500E5}
+#textcolor7243{color:#E500E5}
+#textcolor7254{color:#E500E5}
+#textcolor7257{color:#E500E5}
+#textcolor7268{color:#E500E5}
+#textcolor7271{color:#E500E5}
+#textcolor7289{color:#E500E5}
+#textcolor7292{color:#E500E5}
+#textcolor7300{color:#E500E5}
+#textcolor9232{color:#E500E5}
+#textcolor9267{color:#E500E5}
+#textcolor9271{color:#E500E5}
+#textcolor9273{color:#E500E5}
+#textcolor9277{color:#E500E5}
+#textcolor9281{color:#E500E5}
+#textcolor9284{color:#E500E5}
+#textcolor9288{color:#E500E5}
+#textcolor9290{color:#E500E5}
+#textcolor9292{color:#E500E5}
+#textcolor9296{color:#E500E5}
+#textcolor9299{color:#E500E5}
+#textcolor9302{color:#E500E5}
+#textcolor9306{color:#E500E5}
+#textcolor9309{color:#E500E5}
+#textcolor9350{color:#E500E5}
+#textcolor9355{color:#E500E5}
+#textcolor9370{color:#E500E5}
+#textcolor9377{color:#E500E5}
+#textcolor9380{color:#E500E5}
+#textcolor9382{color:#E500E5}
+#textcolor9385{color:#E500E5}
+#textcolor9388{color:#E500E5}
+#textcolor9397{color:#E500E5}
+#textcolor9399{color:#E500E5}
+#textcolor9403{color:#E500E5}
+#textcolor9410{color:#E500E5}
+#textcolor9414{color:#E500E5}
+#textcolor9417{color:#E500E5}
+#textcolor9419{color:#E500E5}
+#textcolor9422{color:#E500E5}
+#textcolor9469{color:#E500E5}
+#textcolor9477{color:#E500E5}
+#textcolor9495{color:#E500E5}
+#textcolor9503{color:#E500E5}
+#textcolor9505{color:#E500E5}
+#textcolor9509{color:#E500E5}
+#textcolor9520{color:#E500E5}
+#textcolor9523{color:#E500E5}
+#textcolor9525{color:#E500E5}
+#textcolor9528{color:#E500E5}
+#textcolor9531{color:#E500E5}
+#textcolor9533{color:#E500E5}
+#textcolor9537{color:#E500E5}
+#textcolor9544{color:#E500E5}
+#textcolor9553{color:#E500E5}
+#textcolor9557{color:#E500E5}
+#textcolor9560{color:#E500E5}
+#textcolor9562{color:#E500E5}
+#textcolor9565{color:#E500E5}
+#textcolor9572{color:#E500E5}
+#textcolor9575{color:#E500E5}
+#textcolor9577{color:#E500E5}
+#textcolor9580{color:#E500E5}
+#textcolor9583{color:#E500E5}
+#textcolor9585{color:#E500E5}
+#textcolor9595{color:#E500E5}
+#textcolor9598{color:#E500E5}
+#textcolor9600{color:#E500E5}
+#textcolor9603{color:#E500E5}
+#textcolor9606{color:#E500E5}
+#textcolor9608{color:#E500E5}
+#textcolor9613{color:#E500E5}
+#textcolor9620{color:#E500E5}
+#textcolor9624{color:#E500E5}
+#textcolor9627{color:#E500E5}
+#textcolor9629{color:#E500E5}
+#textcolor9632{color:#E500E5}
+#textcolor9767{color:#E500E5}
+#textcolor9819{color:#E500E5}
+#textcolor9821{color:#E500E5}
+#textcolor9825{color:#E500E5}
+#textcolor9872{color:#E500E5}
+#textcolor9875{color:#E500E5}
+#textcolor9879{color:#E500E5}
+#textcolor9883{color:#E500E5}
+#textcolor9885{color:#E500E5}
+#textcolor9887{color:#E500E5}
+#textcolor9890{color:#E500E5}
+#textcolor9893{color:#E500E5}
+#textcolor9895{color:#E500E5}
+#textcolor9898{color:#E500E5}
+#textcolor9900{color:#E500E5}
+#textcolor9904{color:#E500E5}
+#textcolor9942{color:#E500E5}
+#textcolor9947{color:#E500E5}
+#textcolor9951{color:#E500E5}
+#textcolor9954{color:#E500E5}
+#textcolor9958{color:#E500E5}
+#textcolor9962{color:#E500E5}
+#textcolor9964{color:#E500E5}
+#textcolor9977{color:#E500E5}
+#textcolor9980{color:#E500E5}
+#textcolor9983{color:#E500E5}
+#textcolor9985{color:#E500E5}
+#textcolor9994{color:#E500E5}
+#textcolor9998{color:#E500E5}
+#textcolor10014{color:#E500E5}
+#textcolor10066{color:#E500E5}
+#textcolor10121{color:#E500E5}
+#textcolor10124{color:#E500E5}
+#textcolor10127{color:#E500E5}
+#textcolor10130{color:#E500E5}
+#textcolor10132{color:#E500E5}
+#textcolor10134{color:#E500E5}
+#textcolor10137{color:#E500E5}
+#textcolor10140{color:#E500E5}
+#textcolor10142{color:#E500E5}
+#textcolor10156{color:#E500E5}
+#textcolor10159{color:#E500E5}
+#textcolor10162{color:#E500E5}
+#textcolor10164{color:#E500E5}
+#textcolor10169{color:#E500E5}
+#textcolor10176{color:#E500E5}
+#textcolor10185{color:#E500E5}
+#textcolor10187{color:#E500E5}
+#textcolor10191{color:#E500E5}
+#textcolor10194{color:#E500E5}
+#textcolor10198{color:#E500E5}
+#textcolor10202{color:#E500E5}
+#textcolor10204{color:#E500E5}
+#textcolor10206{color:#E500E5}
+#textcolor10209{color:#E500E5}
+#textcolor10248{color:#E500E5}
+#textcolor10250{color:#E500E5}
+#textcolor10254{color:#E500E5}
+#textcolor10262{color:#E500E5}
+#textcolor10264{color:#E500E5}
+#textcolor10274{color:#E500E5}
+#textcolor10278{color:#E500E5}
+#textcolor10282{color:#E500E5}
+#textcolor10286{color:#E500E5}
+#textcolor10305{color:#E500E5}
+#textcolor10314{color:#E500E5}
+#textcolor10322{color:#E500E5}
+#textcolor10324{color:#E500E5}
+#textcolor10334{color:#E500E5}
+#textcolor10338{color:#E500E5}
+#textcolor10342{color:#E500E5}
+#textcolor10346{color:#E500E5}
+#textcolor10365{color:#E500E5}
+#textcolor10453{color:#E500E5}
+#textcolor10458{color:#E500E5}
+#textcolor10462{color:#E500E5}
+#textcolor10469{color:#E500E5}
+#textcolor10472{color:#E500E5}
+#textcolor10475{color:#E500E5}
+#textcolor10484{color:#E500E5}
+#textcolor10487{color:#E500E5}
+#textcolor10490{color:#E500E5}
+#textcolor10536{color:#E500E5}
+#textcolor10590{color:#E500E5}
+#textcolor10592{color:#E500E5}
+#textcolor10596{color:#E500E5}
+#textcolor10599{color:#E500E5}
+#textcolor10603{color:#E500E5}
+#textcolor10607{color:#E500E5}
+#textcolor10609{color:#E500E5}
+#textcolor10611{color:#E500E5}
+#textcolor10614{color:#E500E5}
+#textcolor10621{color:#E500E5}
+#textcolor10644{color:#E500E5}
+#textcolor10647{color:#E500E5}
+#textcolor10650{color:#E500E5}
+#textcolor10653{color:#E500E5}
+#textcolor10673{color:#E500E5}
+#textcolor10682{color:#E500E5}
+#textcolor10685{color:#E500E5}
+#textcolor10688{color:#E500E5}
+#textcolor10690{color:#E500E5}
+#textcolor10693{color:#E500E5}
+#textcolor10696{color:#E500E5}
+#textcolor10704{color:#E500E5}
+#textcolor10707{color:#E500E5}
+#textcolor10710{color:#E500E5}
+#textcolor10712{color:#E500E5}
+#textcolor10715{color:#E500E5}
+#textcolor10736{color:#E500E5}
+#textcolor10815{color:#E500E5}
+#textcolor10822{color:#E500E5}
+#textcolor10825{color:#E500E5}
+#textcolor10827{color:#E500E5}
+#textcolor10830{color:#E500E5}
+#textcolor10833{color:#E500E5}
+#textcolor10839{color:#E500E5}
+#textcolor10847{color:#E500E5}
+#textcolor10850{color:#E500E5}
+#textcolor10853{color:#E500E5}
+#textcolor10856{color:#E500E5}
+#textcolor10879{color:#E500E5}
+#textcolor10885{color:#E500E5}
+#textcolor10887{color:#E500E5}
+#textcolor10899{color:#E500E5}
+#textcolor10935{color:#E500E5}
+#textcolor10944{color:#E500E5}
+#textcolor10982{color:#E500E5}
+#textcolor10985{color:#E500E5}
+#textcolor10988{color:#E500E5}
+#textcolor10994{color:#E500E5}
+#textcolor10997{color:#E500E5}
+#textcolor11000{color:#E500E5}
+#textcolor11070{color:#E500E5}
+#textcolor11073{color:#E500E5}
+#textcolor11075{color:#E500E5}
+#textcolor11087{color:#E500E5}
+#textcolor11091{color:#E500E5}
+#textcolor11103{color:#E500E5}
+#textcolor11107{color:#E500E5}
+#textcolor11119{color:#E500E5}
+#textcolor11123{color:#E500E5}
+#textcolor11135{color:#E500E5}
+#textcolor11137{color:#E500E5}
+#textcolor11141{color:#E500E5}
+#textcolor11178{color:#E500E5}
+#textcolor11181{color:#E500E5}
+#textcolor11184{color:#E500E5}
+#textcolor11187{color:#E500E5}
+#textcolor11193{color:#E500E5}
+#textcolor11227{color:#E500E5}
+#textcolor11230{color:#E500E5}
+#textcolor11233{color:#E500E5}
+#textcolor11236{color:#E500E5}
+#textcolor11261{color:#E500E5}
+#textcolor11296{color:#E500E5}
+#textcolor11313{color:#E500E5}
+#textcolor11318{color:#E500E5}
+#textcolor11324{color:#E500E5}
+#textcolor11327{color:#E500E5}
+#textcolor11333{color:#E500E5}
+.columns-2 p:first-child { margin-top: 0em; }
+.columns-2{-moz-column-count:2; -webkit-column-count:2; column-count:2; -moz-column-gap: 10.0pt; -webkit-column-gap: 10.0pt; column-gap: 10.0pt; -moz-column-rule-width: 0.0pt; -webkit-column-rule-width: 0.0pt; column-rule-rule-width: 0.0pt; -moz-column-rule-color: #555;; -webkit-column-rule-color: #555;; column-rule-color: #555;; -moz-column-rule-style: outset; -webkit-column-rule-style: outset; column-rule-style: outset; -moz-column-fill: balance; -webkit-column-fill: balance; column-fill: balance; }
+#textcolor11340{color:#008000}
+#textcolor11350{color:#008000}
+#textcolor11362{color:#008000}
+#textcolor11370{color:#E500E5}
+#textcolor11394{color:#008000}
+#textcolor11400{color:#E500E5}
+#textcolor11402{color:#E500E5}
+#textcolor11408{color:#E500E5}
+#textcolor11411{color:#E500E5}
+#textcolor11417{color:#E500E5}
+#textcolor11420{color:#E500E5}
+#textcolor11426{color:#E500E5}
+#textcolor11429{color:#E500E5}
+#textcolor11435{color:#E500E5}
+#textcolor11438{color:#E500E5}
+#textcolor11444{color:#E500E5}
+#textcolor11446{color:#E500E5}
+#textcolor11449{color:#008000}
+#textcolor11456{color:#E500E5}
+#textcolor11471{color:#E500E5}
+#textcolor11473{color:#008000}
+#textcolor11482{color:#E500E5}
+#textcolor11486{color:#E500E5}
+#textcolor11488{color:#E500E5}
+#textcolor11497{color:#E500E5}
+#textcolor11501{color:#E500E5}
+#textcolor11507{color:#E500E5}
+#textcolor11509{color:#E500E5}
+#textcolor11511{color:#008000}
+#textcolor11525{color:#E500E5}
+#textcolor11540{color:#E500E5}
+#textcolor11548{color:#E500E5}
+#textcolor11553{color:#008000}
+#textcolor11559{color:#E500E5}
+#textcolor11561{color:#E500E5}
+#textcolor11567{color:#E500E5}
+#textcolor11570{color:#E500E5}
+#textcolor11576{color:#E500E5}
+#textcolor11579{color:#E500E5}
+#textcolor11585{color:#E500E5}
+#textcolor11587{color:#E500E5}
+#textcolor11590{color:#008000}
+#textcolor11594{color:#E500E5}
+#textcolor11603{color:#E500E5}
+#textcolor11605{color:#008000}
+#textcolor11611{color:#E500E5}
+#textcolor11613{color:#E500E5}
+#textcolor11619{color:#E500E5}
+#textcolor11622{color:#E500E5}
+#textcolor11628{color:#E500E5}
+#textcolor11630{color:#E500E5}
+#textcolor11633{color:#008000}
+#textcolor11637{color:#E500E5}
+#textcolor11643{color:#E500E5}
+#textcolor11704{color:#E500E5}
+#textcolor11713{color:#E500E5}
+#textcolor11721{color:#E500E5}
+#textcolor11729{color:#E500E5}
+#textcolor11769{color:#E500E5}
+#textcolor11781{color:#E500E5}
+#textcolor11830{color:#E500E5}
+#textcolor11838{color:#E500E5}
+#textcolor11846{color:#E500E5}
+#textcolor11865{color:#E500E5}
+#textcolor11882{color:#E500E5}
+#textcolor11885{color:#E500E5}
+#textcolor11918{color:#E500E5}
+#textcolor11930{color:#E500E5}
+#textcolor11934{color:#E500E5}
+#textcolor11949{color:#E500E5}
+#textcolor11955{color:#E500E5}
+#textcolor11965{color:#E500E5}
+#textcolor11991{color:#008000}
+#textcolor12001{color:#008000}
+#textcolor12013{color:#008000}
+#textcolor12023{color:#008000}
+#textcolor12033{color:#008000}
+#textcolor12041{color:#E500E5}
+#textcolor12049{color:#E500E5}
+#textcolor12053{color:#008000}
+#textcolor12076{color:#008000}
+#textcolor12090{color:#E500E5}
+#textcolor12105{color:#E500E5}
+#textcolor12113{color:#E500E5}
+#textcolor12117{color:#008000}
+#textcolor12140{color:#008000}
+#textcolor12163{color:#008000}
+#textcolor12168{color:#E500E5}
+#textcolor12176{color:#E500E5}
+#textcolor12184{color:#E500E5}
+#textcolor12196{color:#008000}
+#textcolor12212{color:#008000}
+#textcolor12224{color:#008000}
+#textcolor12229{color:#E500E5}
+#textcolor12237{color:#E500E5}
+#textcolor12245{color:#E500E5}
+#textcolor12251{color:#E500E5}
+#textcolor12255{color:#008000}
+#textcolor12260{color:#E500E5}
+#textcolor12275{color:#E500E5}
+#textcolor12279{color:#008000}
+#textcolor12285{color:#E500E5}
+#textcolor12310{color:#E500E5}
+#textcolor12313{color:#008000}
+#textcolor12381{color:#E500E5}
+#textcolor12388{color:#E500E5}
+#textcolor12420{color:#E500E5}
+#textcolor12425{color:#E500E5}
+#textcolor12432{color:#E500E5}
+#textcolor12454{color:#E500E5}
+#textcolor12461{color:#E500E5}
+#textcolor12466{color:#E500E5}
+#textcolor12471{color:#E500E5}
+#textcolor12489{color:#E500E5}
+#textcolor12497{color:#E500E5}
+#textcolor12510{color:#E500E5}
+#textcolor12515{color:#E500E5}
+#textcolor12526{color:#E500E5}
+#textcolor12556{color:#E500E5}
+#textcolor12586{color:#E500E5}
+#textcolor12603{color:#E500E5}
+#textcolor12627{color:#E500E5}
+#textcolor12642{color:#E500E5}
+#textcolor12659{color:#E500E5}
+#textcolor12681{color:#E500E5}
+#textcolor12688{color:#E500E5}
+#textcolor12700{color:#E500E5}
+#textcolor12749{color:#E500E5}
+#textcolor12756{color:#E500E5}
+#textcolor13244{color:#E500E5}
+#textcolor13250{color:#E500E5}
+#textcolor13256{color:#E500E5}
+#textcolor13265{color:#E500E5}
+#textcolor13272{color:#E500E5}
+#textcolor13280{color:#E500E5}
+#textcolor13289{color:#E500E5}
+#textcolor13297{color:#E500E5}
+#textcolor13304{color:#E500E5}
+#textcolor13311{color:#E500E5}
+#textcolor13315{color:#E500E5}
+#textcolor13318{color:#E500E5}
+#textcolor13323{color:#E500E5}
+#textcolor13325{color:#E500E5}
+#textcolor13329{color:#E500E5}
+#textcolor13333{color:#E500E5}
+#textcolor13336{color:#E500E5}
+#textcolor13339{color:#E500E5}
+#textcolor13343{color:#E500E5}
+#textcolor13347{color:#E500E5}
+#textcolor13350{color:#E500E5}
+#textcolor13355{color:#E500E5}
+#textcolor13357{color:#E500E5}
+#textcolor13361{color:#E500E5}
+#textcolor13365{color:#E500E5}
+#textcolor13368{color:#E500E5}
+#textcolor13371{color:#E500E5}
+#textcolor13375{color:#E500E5}
+#textcolor13383{color:#E500E5}
+#textcolor13397{color:#E500E5}
+#textcolor13399{color:#E500E5}
+#textcolor13403{color:#E500E5}
+#textcolor13408{color:#E500E5}
+#textcolor13410{color:#E500E5}
+#textcolor13414{color:#E500E5}
+#textcolor13420{color:#E500E5}
+#textcolor13453{color:#E500E5}
+#textcolor13463{color:#E500E5}
+#textcolor13483{color:#E500E5}
+#textcolor13488{color:#E500E5}
+#textcolor13494{color:#E500E5}
+#textcolor13502{color:#E500E5}
+#textcolor13510{color:#E500E5}
+#textcolor13518{color:#E500E5}
+#textcolor13526{color:#E500E5}
+#textcolor13544{color:#E500E5}
+#textcolor13550{color:#E500E5}
+#textcolor13567{color:#E500E5}
+#textcolor13585{color:#E500E5}
+#textcolor13591{color:#E500E5}
+#textcolor13613{color:#E500E5}
+#textcolor13618{color:#E500E5}
+#textcolor13623{color:#E500E5}
+#textcolor13630{color:#E500E5}
+#textcolor13647{color:#E500E5}
+#textcolor13651{color:#E500E5}
+#textcolor13654{color:#E500E5}
+#textcolor13659{color:#E500E5}
+#textcolor13662{color:#E500E5}
+#textcolor13665{color:#E500E5}
+#textcolor13675{color:#E500E5}
+#textcolor13685{color:#E500E5}
+#textcolor13691{color:#E500E5}
+#textcolor13697{color:#E500E5}
+#textcolor13707{color:#E500E5}
+#textcolor13724{color:#E500E5}
+#textcolor13742{color:#E500E5}
+#textcolor13747{color:#E500E5}
+#textcolor13760{color:#E500E5}
+#textcolor13769{color:#E500E5}
+#textcolor13780{color:#E500E5}
+#textcolor13788{color:#E500E5}
+#textcolor13804{color:#E500E5}
+#textcolor13815{color:#E500E5}
+#textcolor13823{color:#E500E5}
+#textcolor13838{color:#E500E5}
+#textcolor13846{color:#E500E5}
+#textcolor13854{color:#E500E5}
+#textcolor13862{color:#E500E5}
+#textcolor13899{color:#E500E5}
+#textcolor13903{color:#E500E5}
+#textcolor13916{color:#E500E5}
+#textcolor13921{color:#E500E5}
+#textcolor13926{color:#E500E5}
+#textcolor13943{color:#E500E5}
+#textcolor13949{color:#E500E5}
+#textcolor13953{color:#E500E5}
+#textcolor13958{color:#E500E5}
+#textcolor13963{color:#E500E5}
+#textcolor13967{color:#E500E5}
+#textcolor13973{color:#E500E5}
+#textcolor13977{color:#E500E5}
+#textcolor13982{color:#E500E5}
+#textcolor13992{color:#E500E5}
+#textcolor13996{color:#E500E5}
+#textcolor14002{color:#E500E5}
+#textcolor14014{color:#E500E5}
+#textcolor14029{color:#E500E5}
+#textcolor14038{color:#E500E5}
+#textcolor14043{color:#E500E5}
+#textcolor14047{color:#E500E5}
+#textcolor14053{color:#E500E5}
+#textcolor14061{color:#E500E5}
+#textcolor14066{color:#E500E5}
+#textcolor14073{color:#E500E5}
+#textcolor14077{color:#E500E5}
+#textcolor14083{color:#E500E5}
+#textcolor14095{color:#E500E5}
+#textcolor14099{color:#E500E5}
+#textcolor14105{color:#E500E5}
+#textcolor14121{color:#E500E5}
+#textcolor14129{color:#E500E5}
+#textcolor14137{color:#E500E5}
+#textcolor14145{color:#E500E5}
+#textcolor14165{color:#E500E5}
+#textcolor14174{color:#E500E5}
+#textcolor14179{color:#E500E5}
+#textcolor14194{color:#E500E5}
+#textcolor14198{color:#E500E5}
+#textcolor14209{color:#E500E5}
+#textcolor14233{color:#E500E5}
+#textcolor14240{color:#E500E5}
+#textcolor14245{color:#E500E5}
+#textcolor14249{color:#E500E5}
+#textcolor14254{color:#E500E5}
+#textcolor14260{color:#E500E5}
+#textcolor14267{color:#E500E5}
+#textcolor14272{color:#E500E5}
+#textcolor14276{color:#E500E5}
+#textcolor14281{color:#E500E5}
+#textcolor14287{color:#E500E5}
+#textcolor14294{color:#E500E5}
+#textcolor14299{color:#E500E5}
+#textcolor14303{color:#E500E5}
+#textcolor14308{color:#E500E5}
+#textcolor14314{color:#E500E5}
+#textcolor14321{color:#E500E5}
+#textcolor14326{color:#E500E5}
+#textcolor14330{color:#E500E5}
+#textcolor14335{color:#E500E5}
+#textcolor14345{color:#E500E5}
+#textcolor14347{color:#E500E5}
+#textcolor14351{color:#E500E5}
+#textcolor14392{color:#E500E5}
+#textcolor14399{color:#E500E5}
+#textcolor14407{color:#E500E5}
+#textcolor14415{color:#E500E5}
+#textcolor14423{color:#E500E5}
+#textcolor14448{color:#E500E5}
+#textcolor14453{color:#E500E5}
+#textcolor14456{color:#E500E5}
+#textcolor14459{color:#E500E5}
+#textcolor14473{color:#E500E5}
+#textcolor14475{color:#E500E5}
+#textcolor14492{color:#E500E5}
+#textcolor14497{color:#E500E5}
+#textcolor14500{color:#E500E5}
+#textcolor14503{color:#E500E5}
+#textcolor14517{color:#E500E5}
+#textcolor14519{color:#E500E5}
+#textcolor14578{color:#E500E5}
+#textcolor14593{color:#E500E5}
+#textcolor14599{color:#E500E5}
+#textcolor14613{color:#E500E5}
+#textcolor14627{color:#E500E5}
+#textcolor14629{color:#E500E5}
+#textcolor14632{color:#E500E5}
+#textcolor14637{color:#E500E5}
+#textcolor14639{color:#E500E5}
+#textcolor14648{color:#E500E5}
+#textcolor14651{color:#E500E5}
+#textcolor14660{color:#E500E5}
+#textcolor14663{color:#E500E5}
+#textcolor14672{color:#E500E5}
+#textcolor14674{color:#E500E5}
+#textcolor14679{color:#E500E5}
+#textcolor14708{color:#E500E5}
+#textcolor14720{color:#E500E5}
+#textcolor14726{color:#E500E5}
+#textcolor14737{color:#E500E5}
+#textcolor14745{color:#E500E5}
+#textcolor14751{color:#E500E5}
+#textcolor14768{color:#E500E5}
+#textcolor14785{color:#E500E5}
+#textcolor14806{color:#E500E5}
+#textcolor14812{color:#E500E5}
+#textcolor14820{color:#E500E5}
+#textcolor14822{color:#E500E5}
+#textcolor14832{color:#E500E5}
+#textcolor14863{color:#E500E5}
+#textcolor14873{color:#E500E5}
+#textcolor14881{color:#E500E5}
+#textcolor14905{color:#E500E5}
+#textcolor14915{color:#E500E5}
+#textcolor14923{color:#E500E5}
+#textcolor14939{color:#E500E5}
+#textcolor14945{color:#E500E5}
+#textcolor14951{color:#E500E5}
+#textcolor14958{color:#E500E5}
+#textcolor14972{color:#E500E5}
+#textcolor14979{color:#E500E5}
+#textcolor14984{color:#E500E5}
+#textcolor14992{color:#E500E5}
+#textcolor14997{color:#E500E5}
+#textcolor15012{color:#E500E5}
+#textcolor15016{color:#E500E5}
+#textcolor15024{color:#E500E5}
+#textcolor15029{color:#E500E5}
+#textcolor15031{color:#E500E5}
+#textcolor15039{color:#E500E5}
+#textcolor15059{color:#E500E5}
+#textcolor15075{color:#E500E5}
+#textcolor15089{color:#E500E5}
+#textcolor15105{color:#E500E5}
+#textcolor15119{color:#E500E5}
+#textcolor15133{color:#E500E5}
+#textcolor15145{color:#E500E5}
+#textcolor15156{color:#E500E5}
+#textcolor15166{color:#E500E5}
+#textcolor15174{color:#E500E5}
+#textcolor15180{color:#E500E5}
+#textcolor15190{color:#E500E5}
+#textcolor15195{color:#E500E5}
+#textcolor15201{color:#E500E5}
+#textcolor15206{color:#E500E5}
+#textcolor15211{color:#E500E5}
+#textcolor15217{color:#E500E5}
+#textcolor15224{color:#E500E5}
+#textcolor15240{color:#E500E5}
+#textcolor15245{color:#E500E5}
+#textcolor15250{color:#E500E5}
+#textcolor15256{color:#E500E5}
+#textcolor15268{color:#E500E5}
+#textcolor15283{color:#E500E5}
+#textcolor15289{color:#E500E5}
+#textcolor15304{color:#E500E5}
+#textcolor15310{color:#E500E5}
+#textcolor15315{color:#E500E5}
+#textcolor15320{color:#E500E5}
+#textcolor15326{color:#E500E5}
+#textcolor15331{color:#E500E5}
+#textcolor15336{color:#E500E5}
+#textcolor15347{color:#E500E5}
+#textcolor15364{color:#E500E5}
+#textcolor15375{color:#E500E5}
+#textcolor15389{color:#E500E5}
+#textcolor15398{color:#E500E5}
+#textcolor15412{color:#E500E5}
+#textcolor15421{color:#E500E5}
+#textcolor15447{color:#E500E5}
+#textcolor15488{color:#E500E5}
+#textcolor15505{color:#E500E5}
+#textcolor15552{color:#E500E5}
+#textcolor15567{color:#E500E5}
+#textcolor15586{color:#E500E5}
+#textcolor15602{color:#E500E5}
+#textcolor15612{color:#E500E5}
+#textcolor15624{color:#E500E5}
+#textcolor15649{color:#E500E5}
+#textcolor15674{color:#E500E5}
+#textcolor15687{color:#E500E5}
+#textcolor15721{color:#E500E5}
+#textcolor15745{color:#008000}
+#textcolor15750{color:#E500E5}
+#textcolor15772{color:#008000}
+#textcolor15783{color:#E500E5}
+#textcolor15810{color:#E500E5}
+#textcolor15812{color:#008000}
+#textcolor15817{color:#E500E5}
+#textcolor15828{color:#008000}
+#textcolor15832{color:#E500E5}
+#textcolor15835{color:#E500E5}
+#textcolor15846{color:#008000}
+#textcolor15850{color:#E500E5}
+#textcolor15853{color:#E500E5}
+#textcolor15867{color:#E500E5}
+#textcolor15905{color:#E500E5}
+#textcolor15924{color:#E500E5}
+#textcolor15939{color:#E500E5}
+#textcolor15964{color:#E500E5}
+#textcolor16042{color:#E500E5}
+#textcolor16082{color:#E500E5}
+#textcolor16132{color:#008000}
+#textcolor16144{color:#008000}
+#textcolor16156{color:#008000}
+#textcolor16164{color:#E500E5}
+#textcolor16170{color:#E500E5}
+#textcolor16174{color:#008000}
+#textcolor16179{color:#E500E5}
+#textcolor16185{color:#E500E5}
+#textcolor16191{color:#E500E5}
+#textcolor16203{color:#008000}
+#textcolor16211{color:#E500E5}
+#textcolor16213{color:#E500E5}
+#textcolor16218{color:#E500E5}
+#textcolor16220{color:#E500E5}
+#textcolor16225{color:#E500E5}
+#textcolor16231{color:#E500E5}
+#textcolor16234{color:#008000}
+#textcolor16242{color:#E500E5}
+#textcolor16244{color:#E500E5}
+#textcolor16249{color:#E500E5}
+#textcolor16251{color:#E500E5}
+#textcolor16262{color:#008000}
+#textcolor16311{color:#E500E5}
+#textcolor16320{color:#E500E5}
+#textcolor16337{color:#E500E5}
+#textcolor16343{color:#E500E5}
+#textcolor16358{color:#E500E5}
+#textcolor16360{color:#E500E5}
+#textcolor16367{color:#E500E5}
+#textcolor16371{color:#E500E5}
+#textcolor16393{color:#E500E5}
+#textcolor16395{color:#E500E5}
+#textcolor16397{color:#E500E5}
+#textcolor16400{color:#E500E5}
+#textcolor16403{color:#E500E5}
+#textcolor16405{color:#E500E5}
+#textcolor16410{color:#E500E5}
+#textcolor16418{color:#E500E5}
+#textcolor16439{color:#E500E5}
+#textcolor16454{color:#E500E5}
+#textcolor16464{color:#E500E5}
+#textcolor16467{color:#E500E5}
+#textcolor16471{color:#E500E5}
+#textcolor16482{color:#E500E5}
+#textcolor16488{color:#E500E5}
+#textcolor16517{color:#E500E5}
+#textcolor16533{color:#E500E5}
+#textcolor16541{color:#E500E5}
+#textcolor16558{color:#E500E5}
+#textcolor16566{color:#E500E5}
+#textcolor16627{color:#008000}
+#textcolor16637{color:#008000}
+#textcolor16642{color:#E500E5}
+#textcolor16645{color:#E500E5}
+#textcolor16647{color:#E500E5}
+#textcolor16653{color:#E500E5}
+#textcolor16657{color:#E500E5}
+#textcolor16663{color:#E500E5}
+#textcolor16665{color:#E500E5}
+#textcolor16667{color:#008000}
+#textcolor16672{color:#E500E5}
+#textcolor16675{color:#E500E5}
+#textcolor16681{color:#E500E5}
+#textcolor16683{color:#008000}
+#textcolor16688{color:#E500E5}
+#textcolor16695{color:#008000}
+#textcolor16700{color:#E500E5}
+#textcolor16712{color:#008000}
+#textcolor16719{color:#E500E5}
+#textcolor16721{color:#E500E5}
+#textcolor16728{color:#E500E5}
+#textcolor16730{color:#E500E5}
+#textcolor16735{color:#E500E5}
+#textcolor16738{color:#E500E5}
+#textcolor16741{color:#008000}
+#textcolor16748{color:#E500E5}
+#textcolor16750{color:#E500E5}
+#textcolor16757{color:#E500E5}
+#textcolor16759{color:#E500E5}
+#textcolor16764{color:#E500E5}
+#textcolor16766{color:#E500E5}
+#textcolor16773{color:#E500E5}
+#textcolor16775{color:#E500E5}
+#textcolor16778{color:#008000}
+#textcolor16790{color:#008000}
+#textcolor16800{color:#008000}
+#textcolor16805{color:#E500E5}
+#textcolor16810{color:#008000}
+#textcolor16818{color:#E500E5}
+#textcolor16829{color:#008000}
+#textcolor16834{color:#E500E5}
+#textcolor16841{color:#008000}
+#textcolor16846{color:#E500E5}
+#textcolor16858{color:#008000}
+#textcolor16867{color:#008000}
+#textcolor16873{color:#008000}
+#textcolor16878{color:#E500E5}
+#textcolor16889{color:#E500E5}
+#textcolor16893{color:#008000}
+#textcolor16898{color:#E500E5}
+#textcolor16907{color:#008000}
+#textcolor16918{color:#008000}
+#textcolor16923{color:#E500E5}
+#textcolor16934{color:#E500E5}
+#textcolor16942{color:#E500E5}
+#textcolor16952{color:#E500E5}
+#textcolor16962{color:#E500E5}
+#textcolor16968{color:#E500E5}
+#textcolor16976{color:#E500E5}
+#textcolor16980{color:#008000}
+#textcolor16985{color:#E500E5}
+#textcolor16994{color:#008000}
+#textcolor16998{color:#008000}
+#textcolor17008{color:#008000}
+#textcolor17013{color:#E500E5}
+#textcolor17016{color:#E500E5}
+#textcolor17018{color:#E500E5}
+#textcolor17024{color:#E500E5}
+#textcolor17028{color:#E500E5}
+#textcolor17034{color:#E500E5}
+#textcolor17036{color:#E500E5}
+#textcolor17038{color:#008000}
+#textcolor17043{color:#E500E5}
+#textcolor17046{color:#E500E5}
+#textcolor17056{color:#E500E5}
+#textcolor17058{color:#008000}
+#textcolor17063{color:#E500E5}
+#textcolor17070{color:#008000}
+#textcolor17075{color:#E500E5}
+#textcolor17087{color:#008000}
+#textcolor17094{color:#E500E5}
+#textcolor17096{color:#E500E5}
+#textcolor17102{color:#E500E5}
+#textcolor17104{color:#E500E5}
+#textcolor17109{color:#E500E5}
+#textcolor17114{color:#E500E5}
+#textcolor17117{color:#008000}
+#textcolor17127{color:#008000}
+#textcolor17132{color:#E500E5}
+#textcolor17135{color:#E500E5}
+#textcolor17137{color:#E500E5}
+#textcolor17143{color:#E500E5}
+#textcolor17147{color:#E500E5}
+#textcolor17153{color:#E500E5}
+#textcolor17155{color:#E500E5}
+#textcolor17157{color:#008000}
+#textcolor17162{color:#E500E5}
+#textcolor17165{color:#E500E5}
+#textcolor17171{color:#E500E5}
+#textcolor17173{color:#008000}
+#textcolor17178{color:#E500E5}
+#textcolor17185{color:#008000}
+#textcolor17199{color:#008000}
+#textcolor17206{color:#E500E5}
+#textcolor17208{color:#E500E5}
+#textcolor17215{color:#E500E5}
+#textcolor17217{color:#E500E5}
+#textcolor17222{color:#E500E5}
+#textcolor17225{color:#E500E5}
+#textcolor17228{color:#008000}
+#textcolor17238{color:#008000}
+#textcolor17246{color:#E500E5}
+#textcolor17248{color:#E500E5}
+#textcolor17255{color:#E500E5}
+#textcolor17258{color:#E500E5}
+#textcolor17265{color:#E500E5}
+#textcolor17267{color:#E500E5}
+#textcolor17270{color:#008000}
+#textcolor17284{color:#008000}
+#textcolor17292{color:#E500E5}
+#textcolor17298{color:#E500E5}
+#textcolor17301{color:#008000}
+#textcolor17321{color:#008000}
+#textcolor17329{color:#E500E5}
+#textcolor17335{color:#E500E5}
+#textcolor17338{color:#008000}
+#textcolor17348{color:#008000}
+#textcolor17353{color:#E500E5}
+#textcolor17356{color:#E500E5}
+#textcolor17358{color:#E500E5}
+#textcolor17364{color:#E500E5}
+#textcolor17368{color:#E500E5}
+#textcolor17374{color:#E500E5}
+#textcolor17376{color:#E500E5}
+#textcolor17378{color:#008000}
+#textcolor17383{color:#E500E5}
+#textcolor17386{color:#E500E5}
+#textcolor17396{color:#E500E5}
+#textcolor17398{color:#008000}
+#textcolor17403{color:#E500E5}
+#textcolor17410{color:#008000}
+#textcolor17424{color:#008000}
+#textcolor17431{color:#E500E5}
+#textcolor17433{color:#E500E5}
+#textcolor17439{color:#E500E5}
+#textcolor17441{color:#E500E5}
+#textcolor17446{color:#E500E5}
+#textcolor17451{color:#E500E5}
+#textcolor17454{color:#008000}
+#textcolor17466{color:#008000}
+#textcolor17476{color:#008000}
+#textcolor17481{color:#E500E5}
+#textcolor17488{color:#E500E5}
+#textcolor17490{color:#E500E5}
+#textcolor17496{color:#E500E5}
+#textcolor17500{color:#E500E5}
+#textcolor17506{color:#E500E5}
+#textcolor17510{color:#E500E5}
+#textcolor17516{color:#E500E5}
+#textcolor17522{color:#E500E5}
+#textcolor17528{color:#E500E5}
+#textcolor17532{color:#E500E5}
+#textcolor17538{color:#E500E5}
+#textcolor17542{color:#E500E5}
+#textcolor17548{color:#E500E5}
+#textcolor17550{color:#E500E5}
+#textcolor17553{color:#008000}
+#textcolor17558{color:#E500E5}
+#textcolor17564{color:#E500E5}
+#textcolor17570{color:#E500E5}
+#textcolor17579{color:#008000}
+#textcolor17587{color:#E500E5}
+#textcolor17605{color:#E500E5}
+#textcolor17610{color:#E500E5}
+#textcolor17614{color:#008000}
+#textcolor17621{color:#E500E5}
+#textcolor17623{color:#E500E5}
+#textcolor17629{color:#E500E5}
+#textcolor17633{color:#E500E5}
+#textcolor17639{color:#E500E5}
+#textcolor17641{color:#E500E5}
+#textcolor17646{color:#E500E5}
+#textcolor17652{color:#E500E5}
+#textcolor17657{color:#E500E5}
+#textcolor17661{color:#008000}
+#textcolor17669{color:#E500E5}
+#textcolor17671{color:#E500E5}
+#textcolor17679{color:#E500E5}
+#textcolor17682{color:#E500E5}
+#textcolor17691{color:#E500E5}
+#textcolor17693{color:#E500E5}
+#textcolor17696{color:#008000}
+#textcolor17708{color:#008000}
+#textcolor17718{color:#008000}
+#textcolor17723{color:#E500E5}
+#textcolor17730{color:#E500E5}
+#textcolor17732{color:#E500E5}
+#textcolor17738{color:#E500E5}
+#textcolor17742{color:#E500E5}
+#textcolor17748{color:#E500E5}
+#textcolor17752{color:#E500E5}
+#textcolor17758{color:#E500E5}
+#textcolor17764{color:#E500E5}
+#textcolor17770{color:#E500E5}
+#textcolor17774{color:#E500E5}
+#textcolor17780{color:#E500E5}
+#textcolor17784{color:#E500E5}
+#textcolor17790{color:#E500E5}
+#textcolor17792{color:#E500E5}
+#textcolor17795{color:#008000}
+#textcolor17800{color:#E500E5}
+#textcolor17810{color:#008000}
+#textcolor17816{color:#008000}
+#textcolor17824{color:#E500E5}
+#textcolor17842{color:#E500E5}
+#textcolor17899{color:#E500E5}
+#textcolor17903{color:#E500E5}
+#textcolor17941{color:#E500E5}
+#textcolor17953{color:#E500E5}
+#textcolor17956{color:#E500E5}
+#textcolor17961{color:#E500E5}
+#textcolor17985{color:#E500E5}
+#textcolor17989{color:#E500E5}
+#textcolor18000{color:#E500E5}
+#textcolor18006{color:#E500E5}
+#textcolor18010{color:#E500E5}
+#textcolor18014{color:#E500E5}
+#textcolor18016{color:#E500E5}
+#textcolor18028{color:#E500E5}
+#textcolor18032{color:#E500E5}
+#textcolor18034{color:#E500E5}
+#textcolor18038{color:#E500E5}
+#textcolor18042{color:#E500E5}
+#textcolor18046{color:#E500E5}
+#textcolor18049{color:#E500E5}
+#textcolor18052{color:#E500E5}
+#textcolor18055{color:#E500E5}
+#textcolor18061{color:#E500E5}
+#textcolor18068{color:#E500E5}
+#textcolor18081{color:#E500E5}
+#textcolor18103{color:#E500E5}
+#textcolor18109{color:#E500E5}
+#textcolor18116{color:#E500E5}
+#textcolor18144{color:#E500E5}
+#textcolor18150{color:#E500E5}
+#textcolor18156{color:#E500E5}
+#textcolor18162{color:#E500E5}
+#textcolor18206{color:#E500E5}
+#textcolor18214{color:#E500E5}
+/* end css.sty */
+
